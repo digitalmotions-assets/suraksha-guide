@@ -525,5 +525,180 @@
   "english": "A secure entry prevents future risks.",
   "hindi": "सुरक्षित प्रवेश भविष्य के जोखिमों को रोकता है।",
   "author": "Suraksha Guide"
+},
+{
+  "id": 101,
+  "category": "Customer Service",
+  "english": "Every visitor deserves respect and professional assistance.",
+  "hindi": "हर आगंतुक सम्मान और पेशेवर सहायता का अधिकारी है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 102,
+  "category": "Customer Service",
+  "english": "A polite greeting creates a positive first impression.",
+  "hindi": "विनम्र अभिवादन सकारात्मक पहली छाप बनाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 103,
+  "category": "Customer Service",
+  "english": "Patience is a valuable skill in customer service.",
+  "hindi": "ग्राहक सेवा में धैर्य एक महत्वपूर्ण गुण है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 104,
+  "category": "Customer Service",
+  "english": "Listen carefully before offering a solution.",
+  "hindi": "समाधान देने से पहले ध्यान से सुनें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 105,
+  "category": "Customer Service",
+  "english": "Professional behavior builds lasting trust.",
+  "hindi": "पेशेवर व्यवहार स्थायी विश्वास बनाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 106,
+  "category": "Industrial Security",
+  "english": "Industrial security protects people, property, and productivity.",
+  "hindi": "औद्योगिक सुरक्षा लोगों, संपत्ति और उत्पादकता की रक्षा करती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 107,
+  "category": "Industrial Security",
+  "english": "Follow every safety procedure without shortcuts.",
+  "hindi": "हर सुरक्षा प्रक्रिया का बिना किसी शॉर्टकट के पालन करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 108,
+  "category": "Industrial Security",
+  "english": "A secure workplace is a productive workplace.",
+  "hindi": "सुरक्षित कार्यस्थल ही उत्पादक कार्यस्थल होता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 109,
+  "category": "Industrial Security",
+  "english": "Risk assessment prevents major accidents.",
+  "hindi": "जोखिम का आकलन बड़ी दुर्घटनाओं को रोकता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 110,
+  "category": "Industrial Security",
+  "english": "Safety and security work together for success.",
+  "hindi": "सुरक्षा और सेफ्टी मिलकर सफलता सुनिश्चित करते हैं।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 111,
+  "category": "Society Security",
+  "english": "A safe society begins with responsible security.",
+  "hindi": "सुरक्षित सोसायटी की शुरुआत जिम्मेदार सुरक्षा से होती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 112,
+  "category": "Society Security",
+  "english": "Every resident deserves a secure environment.",
+  "hindi": "हर निवासी सुरक्षित वातावरण का अधिकारी है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 113,
+  "category": "Society Security",
+  "english": "Visitor verification protects the entire community.",
+  "hindi": "आगंतुक सत्यापन पूरे समुदाय की सुरक्षा करता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 114,
+  "category": "Society Security",
+  "english": "Alert security creates peaceful communities.",
+  "hindi": "सतर्क सुरक्षा शांतिपूर्ण समाज का निर्माण करती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 115,
+  "category": "Society Security",
+  "english": "Security is everyone's confidence.",
+  "hindi": "सुरक्षा सभी का विश्वास है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 116,
+  "category": "Personal Growth",
+  "english": "Learn something new every day.",
+  "hindi": "हर दिन कुछ नया सीखें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 117,
+  "category": "Personal Growth",
+  "english": "Your future depends on today's efforts.",
+  "hindi": "आपका भविष्य आज की मेहनत पर निर्भर करता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 118,
+  "category": "Personal Growth",
+  "english": "Growth begins outside your comfort zone.",
+  "hindi": "विकास आपके आराम क्षेत्र से बाहर शुरू होता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 119,
+  "category": "Personal Growth",
+  "english": "Every experience teaches a valuable lesson.",
+  "hindi": "हर अनुभव एक मूल्यवान सीख देता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 120,
+  "category": "Personal Growth",
+  "english": "Never stop improving yourself.",
+  "hindi": "खुद को बेहतर बनाना कभी बंद न करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 121,
+  "category": "Ethics",
+  "english": "Honesty is the strongest security policy.",
+  "hindi": "ईमानदारी सबसे मजबूत सुरक्षा नीति है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 122,
+  "category": "Ethics",
+  "english": "Integrity earns respect even when no one is watching.",
+  "hindi": "ईमानदारी तब भी सम्मान दिलाती है जब कोई देख नहीं रहा होता।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 123,
+  "category": "Ethics",
+  "english": "Do the right thing, even when it is difficult.",
+  "hindi": "सही काम करें, चाहे वह कठिन ही क्यों न हो।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 124,
+  "category": "Ethics",
+  "english": "Trust is built through honest actions.",
+  "hindi": "विश्वास ईमानदार कार्यों से बनता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 125,
+  "category": "Ethics",
+  "english": "Strong values create strong security professionals.",
+  "hindi": "मजबूत मूल्य उत्कृष्ट सुरक्षा पेशेवर बनाते हैं।",
+  "author": "Suraksha Guide"
 }
 ]
