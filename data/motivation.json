@@ -1,62 +1,16 @@
 [
   {
     "id": 1,
-    "text": "A professional security guard prevents incidents before they happen.",
-    "author": "Suraksha Guide",
-    "category": "Professionalism"
+    "category": "Professionalism",
+    "english": "A professional security guard earns respect through discipline, integrity, and responsibility.",
+    "hindi": "एक पेशेवर सुरक्षा गार्ड अनुशासन, ईमानदारी और जिम्मेदारी से सम्मान अर्जित करता है।",
+    "author": "Suraksha Guide"
   },
   {
     "id": 2,
-    "text": "Stay alert, stay prepared, and protect with confidence.",
-    "author": "Suraksha Guide",
-    "category": "Awareness"
-  },
-  {
-    "id": 3,
-    "text": "Discipline is the strongest weapon of every security professional.",
-    "author": "Suraksha Guide",
-    "category": "Discipline"
-  },
-  {
-    "id": 4,
-    "text": "Every successful shift begins with punctuality and responsibility.",
-    "author": "Suraksha Guide",
-    "category": "Duty"
-  },
-  {
-    "id": 5,
-    "text": "Observe carefully, think clearly, and act wisely.",
-    "author": "Suraksha Guide",
-    "category": "Observation"
-  },
-  {
-    "id": 6,
-    "text": "Security is not just a job; it is a commitment to safety.",
-    "author": "Suraksha Guide",
-    "category": "Commitment"
-  },
-  {
-    "id": 7,
-    "text": "Prepared guards create safer workplaces and stronger communities.",
-    "author": "Suraksha Guide",
-    "category": "Safety"
-  },
-  {
-    "id": 8,
-    "text": "Small observations today can prevent major incidents tomorrow.",
-    "author": "Suraksha Guide",
-    "category": "Prevention"
-  },
-  {
-    "id": 9,
-    "text": "Professional behavior earns respect before words do.",
-    "author": "Suraksha Guide",
-    "category": "Professionalism"
-  },
-  {
-    "id": 10,
-    "text": "Knowledge, vigilance, and discipline make an excellent security guard.",
-    "author": "Suraksha Guide",
-    "category": "Knowledge"
+    "category": "Leadership",
+    "english": "A true leader inspires confidence before giving instructions.",
+    "hindi": "एक सच्चा नेता निर्देश देने से पहले विश्वास पैदा करता है।",
+    "author": "Suraksha Guide"
   }
 ]
