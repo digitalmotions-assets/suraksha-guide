@@ -700,5 +700,355 @@
   "english": "Strong values create strong security professionals.",
   "hindi": "मजबूत मूल्य उत्कृष्ट सुरक्षा पेशेवर बनाते हैं।",
   "author": "Suraksha Guide"
+},
+{
+  "id": 126,
+  "category": "Ethics",
+  "english": "Respect is earned through honesty and fairness.",
+  "hindi": "सम्मान ईमानदारी और निष्पक्षता से प्राप्त होता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 127,
+  "category": "Ethics",
+  "english": "Your character is your greatest security credential.",
+  "hindi": "आपका चरित्र आपकी सबसे बड़ी सुरक्षा पहचान है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 128,
+  "category": "Ethics",
+  "english": "Always choose integrity over convenience.",
+  "hindi": "सुविधा से पहले हमेशा ईमानदारी को चुनें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 129,
+  "category": "Ethics",
+  "english": "Professional ethics build lasting trust.",
+  "hindi": "पेशेवर नैतिकता स्थायी विश्वास का निर्माण करती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 130,
+  "category": "Ethics",
+  "english": "A trustworthy guard is an organization's greatest asset.",
+  "hindi": "विश्वसनीय सुरक्षा गार्ड किसी भी संस्था की सबसे बड़ी संपत्ति होता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 131,
+  "category": "Motivation",
+  "english": "Every sunrise brings another chance to protect and serve.",
+  "hindi": "हर सूर्योदय सुरक्षा और सेवा का नया अवसर लेकर आता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 132,
+  "category": "Motivation",
+  "english": "Confidence grows with knowledge and practice.",
+  "hindi": "ज्ञान और अभ्यास से आत्मविश्वास बढ़ता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 133,
+  "category": "Motivation",
+  "english": "Your dedication today becomes your success tomorrow.",
+  "hindi": "आज का आपका समर्पण कल की सफलता बनता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 134,
+  "category": "Motivation",
+  "english": "Keep improving because excellence has no finish line.",
+  "hindi": "बेहतर बनते रहें, क्योंकि उत्कृष्टता की कोई अंतिम सीमा नहीं होती।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 135,
+  "category": "Motivation",
+  "english": "Believe in your training and trust your decisions.",
+  "hindi": "अपने प्रशिक्षण पर विश्वास रखें और अपने निर्णयों पर भरोसा करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 136,
+  "category": "Success",
+  "english": "Success follows consistent effort.",
+  "hindi": "सफलता निरंतर प्रयास का परिणाम है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 137,
+  "category": "Success",
+  "english": "Small disciplined actions create great achievements.",
+  "hindi": "छोटे अनुशासित कार्य बड़ी उपलब्धियाँ बनाते हैं।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 138,
+  "category": "Success",
+  "english": "Never fear hard work; it builds strong professionals.",
+  "hindi": "कड़ी मेहनत से मत डरिए, यही मजबूत पेशेवर बनाती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 139,
+  "category": "Success",
+  "english": "Every challenge prepares you for greater responsibility.",
+  "hindi": "हर चुनौती आपको बड़ी जिम्मेदारी के लिए तैयार करती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 140,
+  "category": "Success",
+  "english": "Success belongs to those who never stop learning.",
+  "hindi": "सफलता उन्हीं की होती है जो सीखना कभी नहीं छोड़ते।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 141,
+  "category": "Professionalism",
+  "english": "Professional behavior speaks louder than words.",
+  "hindi": "पेशेवर व्यवहार शब्दों से अधिक प्रभावशाली होता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 142,
+  "category": "Professionalism",
+  "english": "Be punctual, be prepared, be professional.",
+  "hindi": "समय के पाबंद रहें, तैयार रहें और पेशेवर बनें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 143,
+  "category": "Professionalism",
+  "english": "Professional excellence comes from daily discipline.",
+  "hindi": "पेशेवर उत्कृष्टता दैनिक अनुशासन से आती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 144,
+  "category": "Professionalism",
+  "english": "Take pride in every responsibility you perform.",
+  "hindi": "अपनी हर जिम्मेदारी पर गर्व करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 145,
+  "category": "Professionalism",
+  "english": "A true professional remains calm under pressure.",
+  "hindi": "सच्चा पेशेवर दबाव में भी शांत रहता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 146,
+  "category": "Leadership",
+  "english": "Leadership begins with self-discipline.",
+  "hindi": "नेतृत्व की शुरुआत आत्म-अनुशासन से होती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 147,
+  "category": "Leadership",
+  "english": "A leader creates opportunities for the team to succeed.",
+  "hindi": "एक नेता टीम की सफलता के अवसर पैदा करता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 148,
+  "category": "Leadership",
+  "english": "Strong leaders remain humble and responsible.",
+  "hindi": "मजबूत नेता विनम्र और जिम्मेदार रहते हैं।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 149,
+  "category": "Leadership",
+  "english": "Lead with confidence and serve with humility.",
+  "hindi": "आत्मविश्वास के साथ नेतृत्व करें और विनम्रता के साथ सेवा करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 150,
+  "category": "Leadership",
+  "english": "The best leaders inspire action through example.",
+  "hindi": "श्रेष्ठ नेता अपने उदाहरण से दूसरों को प्रेरित करते हैं।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 151,
+  "category": "Discipline",
+  "english": "Discipline is the silent strength behind every successful security team.",
+  "hindi": "अनुशासन हर सफल सुरक्षा टीम की मौन शक्ति है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 152,
+  "category": "Discipline",
+  "english": "A disciplined guard never compromises on duty.",
+  "hindi": "अनुशासित सुरक्षा गार्ड कभी अपने कर्तव्य से समझौता नहीं करता।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 153,
+  "category": "Discipline",
+  "english": "Self-control is the first step toward professional excellence.",
+  "hindi": "आत्म-नियंत्रण पेशेवर उत्कृष्टता की पहली सीढ़ी है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 154,
+  "category": "Discipline",
+  "english": "Consistency is born from discipline.",
+  "hindi": "निरंतरता अनुशासन से जन्म लेती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 155,
+  "category": "Discipline",
+  "english": "Respect rules before expecting respect from others.",
+  "hindi": "दूसरों से सम्मान की अपेक्षा करने से पहले नियमों का सम्मान करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 156,
+  "category": "Emergency Response",
+  "english": "Quick thinking saves valuable time during emergencies.",
+  "hindi": "आपातकाल में त्वरित सोच बहुमूल्य समय बचाती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 157,
+  "category": "Emergency Response",
+  "english": "Preparation is the best emergency response plan.",
+  "hindi": "तैयारी सबसे अच्छी आपातकालीन योजना है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 158,
+  "category": "Emergency Response",
+  "english": "Stay calm and lead others to safety.",
+  "hindi": "शांत रहें और दूसरों को सुरक्षित स्थान तक पहुँचाएँ।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 159,
+  "category": "Emergency Response",
+  "english": "Training builds confidence during emergencies.",
+  "hindi": "प्रशिक्षण आपातकाल में आत्मविश्वास बढ़ाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 160,
+  "category": "Emergency Response",
+  "english": "Every emergency is handled better with teamwork.",
+  "hindi": "हर आपातकाल का बेहतर समाधान टीमवर्क से होता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 161,
+  "category": "Teamwork",
+  "english": "Success belongs to teams that trust each other.",
+  "hindi": "सफलता उसी टीम को मिलती है जो एक-दूसरे पर विश्वास करती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 162,
+  "category": "Teamwork",
+  "english": "Strong teamwork creates stronger security.",
+  "hindi": "मजबूत टीमवर्क मजबूत सुरक्षा बनाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 163,
+  "category": "Teamwork",
+  "english": "Every team member plays an important role.",
+  "hindi": "टीम का हर सदस्य महत्वपूर्ण भूमिका निभाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 164,
+  "category": "Teamwork",
+  "english": "Cooperation is the key to operational success.",
+  "hindi": "सहयोग संचालन की सफलता की कुंजी है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 165,
+  "category": "Teamwork",
+  "english": "Work together, protect together.",
+  "hindi": "मिलकर काम करें, मिलकर सुरक्षा करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 166,
+  "category": "Communication",
+  "english": "Clear instructions prevent unnecessary mistakes.",
+  "hindi": "स्पष्ट निर्देश अनावश्यक गलतियों को रोकते हैं।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 167,
+  "category": "Communication",
+  "english": "Effective communication builds confidence.",
+  "hindi": "प्रभावी संवाद आत्मविश्वास बढ़ाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 168,
+  "category": "Communication",
+  "english": "Professional communication reflects professional character.",
+  "hindi": "पेशेवर संवाद पेशेवर चरित्र को दर्शाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 169,
+  "category": "Communication",
+  "english": "Every conversation is an opportunity to build trust.",
+  "hindi": "हर बातचीत विश्वास बनाने का अवसर है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 170,
+  "category": "Communication",
+  "english": "Listen with attention and respond with respect.",
+  "hindi": "ध्यान से सुनें और सम्मानपूर्वक उत्तर दें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 171,
+  "category": "Patrolling",
+  "english": "A careful patrol prevents unexpected risks.",
+  "hindi": "सावधानीपूर्वक गश्त अप्रत्याशित जोखिमों को रोकती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 172,
+  "category": "Patrolling",
+  "english": "Every patrol increases confidence in site security.",
+  "hindi": "हर गश्त परिसर की सुरक्षा में विश्वास बढ़ाती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 173,
+  "category": "Patrolling",
+  "english": "Stay alert throughout every patrol round.",
+  "hindi": "हर गश्त के दौरान पूरी तरह सतर्क रहें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 174,
+  "category": "Patrolling",
+  "english": "Observe carefully and report immediately.",
+  "hindi": "ध्यानपूर्वक निरीक्षण करें और तुरंत रिपोर्ट करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 175,
+  "category": "Patrolling",
+  "english": "Routine patrols create extraordinary safety.",
+  "hindi": "नियमित गश्त असाधारण सुरक्षा सुनिश्चित करती है।",
+  "author": "Suraksha Guide"
 }
 ]
