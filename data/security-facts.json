@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "category": "General Security",
+    "title": "Did You Know?",
+    "english": "Most security incidents can be prevented through early observation and timely reporting.",
+    "hindi": "अधिकांश सुरक्षा घटनाओं को समय पर निरीक्षण और रिपोर्टिंग द्वारा रोका जा सकता है।",
+    "icon": "bi-shield-check",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 2,
+    "category": "Fire Safety",
+    "title": "Fire Safety Fact",
+    "english": "A portable fire extinguisher should be inspected at least once every month.",
+    "hindi": "पोर्टेबल अग्निशामक यंत्र का कम से कम महीने में एक बार निरीक्षण किया जाना चाहिए।",
+    "icon": "bi-fire",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 3,
+    "category": "Access Control",
+    "title": "Security Fact",
+    "english": "Visitor identity verification is one of the most effective access control measures.",
+    "hindi": "आगंतुक की पहचान का सत्यापन एक्सेस कंट्रोल का सबसे प्रभावी उपाय है।",
+    "icon": "bi-person-check",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 4,
+    "category": "CCTV",
+    "title": "CCTV Fact",
+    "english": "CCTV records evidence, but alert monitoring helps prevent incidents before they occur.",
+    "hindi": "सीसीटीवी साक्ष्य रिकॉर्ड करता है, लेकिन सतर्क निगरानी घटनाओं को होने से पहले रोकने में मदद करती है।",
+    "icon": "bi-camera-video",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 5,
+    "category": "Emergency Response",
+    "title": "Emergency Fact",
+    "english": "The first few minutes of an emergency are the most critical for saving lives.",
+    "hindi": "आपातकाल के शुरुआती कुछ मिनट जीवन बचाने के लिए सबसे महत्वपूर्ण होते हैं।",
+    "icon": "bi-exclamation-triangle",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 6,
+    "category": "Patrolling",
+    "title": "Patrolling Fact",
+    "english": "Regular patrols significantly reduce security risks and unauthorized activities.",
+    "hindi": "नियमित गश्त सुरक्षा जोखिमों और अनधिकृत गतिविधियों को काफी हद तक कम करती है।",
+    "icon": "bi-person-walking",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 7,
+    "category": "Industrial Security",
+    "title": "Industrial Fact",
+    "english": "Following Standard Operating Procedures (SOPs) reduces workplace accidents.",
+    "hindi": "मानक संचालन प्रक्रियाओं (SOP) का पालन कार्यस्थल की दुर्घटनाओं को कम करता है।",
+    "icon": "bi-building",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 8,
+    "category": "Society Security",
+    "title": "Society Security Fact",
+    "english": "Proper visitor management improves the overall security of residential communities.",
+    "hindi": "उचित आगंतुक प्रबंधन आवासीय सोसायटी की समग्र सुरक्षा को बेहतर बनाता है।",
+    "icon": "bi-house-check",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 9,
+    "category": "Professionalism",
+    "title": "Professional Fact",
+    "english": "Professional appearance creates confidence among residents and visitors.",
+    "hindi": "पेशेवर व्यक्तित्व निवासियों और आगंतुकों के बीच विश्वास पैदा करता है।",
+    "icon": "bi-person-badge",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 10,
+    "category": "Security Guard",
+    "title": "Security Fact",
+    "english": "Alertness is the most valuable skill of every security guard.",
+    "hindi": "सतर्कता हर सुरक्षा गार्ड का सबसे महत्वपूर्ण गुण है।",
+    "icon": "bi-shield-lock",
+    "author": "Suraksha Guide"
+  }
+]
