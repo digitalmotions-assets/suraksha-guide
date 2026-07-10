@@ -139,6 +139,218 @@
     "hindi": "आत्मविश्वास बढ़ाने के लिए नियमित फायर ड्रिल करें।",
     "author": "Suraksha Guide"
   },
+,
+{
+  "id": 21,
+  "category": "Fire Safety",
+  "english": "Prevention is the best fire protection.",
+  "hindi": "रोकथाम ही सबसे अच्छी अग्नि सुरक्षा है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 22,
+  "category": "Fire Safety",
+  "english": "Stay calm and follow emergency procedures during a fire.",
+  "hindi": "आग लगने पर शांत रहें और आपातकालीन प्रक्रिया का पालन करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 23,
+  "category": "Fire Safety",
+  "english": "Fire safety knowledge saves lives.",
+  "hindi": "अग्नि सुरक्षा का ज्ञान जीवन बचाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 24,
+  "category": "Fire Safety",
+  "english": "Check fire equipment before an emergency occurs.",
+  "hindi": "आपातकाल से पहले अग्निशमन उपकरणों की जांच करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 25,
+  "category": "Fire Safety",
+  "english": "Prepared people respond with confidence.",
+  "hindi": "तैयार लोग आत्मविश्वास के साथ प्रतिक्रिया देते हैं।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 26,
+  "category": "Motivation",
+  "english": "Success begins with a positive mindset.",
+  "hindi": "सफलता सकारात्मक सोच से शुरू होती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 27,
+  "category": "Motivation",
+  "english": "Small improvements every day create big results.",
+  "hindi": "हर दिन छोटे सुधार बड़े परिणाम लाते हैं।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 28,
+  "category": "Motivation",
+  "english": "Never stop learning in the security profession.",
+  "hindi": "सुरक्षा क्षेत्र में सीखना कभी बंद न करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 29,
+  "category": "Motivation",
+  "english": "Your dedication inspires those around you.",
+  "hindi": "आपकी लगन दूसरों को प्रेरित करती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 30,
+  "category": "Motivation",
+  "english": "Hard work today creates a better tomorrow.",
+  "hindi": "आज की मेहनत बेहतर कल बनाती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 31,
+  "category": "Teamwork",
+  "english": "Great security depends on strong teamwork.",
+  "hindi": "बेहतरीन सुरक्षा मजबूत टीमवर्क पर निर्भर करती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 32,
+  "category": "Teamwork",
+  "english": "Support your teammates and achieve together.",
+  "hindi": "अपनी टीम का साथ दें और मिलकर सफलता प्राप्त करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 33,
+  "category": "Teamwork",
+  "english": "Together everyone becomes stronger.",
+  "hindi": "मिलकर हर व्यक्ति अधिक मजबूत बनता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 34,
+  "category": "Teamwork",
+  "english": "Communication strengthens teamwork.",
+  "hindi": "अच्छा संवाद टीमवर्क को मजबूत बनाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 35,
+  "category": "Teamwork",
+  "english": "Respect every member of your team.",
+  "hindi": "अपनी टीम के हर सदस्य का सम्मान करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 36,
+  "category": "Communication",
+  "english": "Clear communication prevents confusion.",
+  "hindi": "स्पष्ट संवाद भ्रम को रोकता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 37,
+  "category": "Communication",
+  "english": "Listen carefully before responding.",
+  "hindi": "उत्तर देने से पहले ध्यान से सुनें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 38,
+  "category": "Communication",
+  "english": "Professional communication builds trust.",
+  "hindi": "पेशेवर संवाद विश्वास पैदा करता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 39,
+  "category": "Communication",
+  "english": "Speak politely and confidently.",
+  "hindi": "विनम्रता और आत्मविश्वास के साथ बात करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 40,
+  "category": "Communication",
+  "english": "Every word reflects your professionalism.",
+  "hindi": "आपका हर शब्द आपकी पेशेवर पहचान दर्शाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 41,
+  "category": "Patrolling",
+  "english": "Regular patrols prevent unexpected incidents.",
+  "hindi": "नियमित गश्त अप्रत्याशित घटनाओं को रोकती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 42,
+  "category": "Patrolling",
+  "english": "Stay observant during every patrol.",
+  "hindi": "हर गश्त के दौरान पूरी सतर्कता बनाए रखें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 43,
+  "category": "Patrolling",
+  "english": "Every patrol improves site security.",
+  "hindi": "हर गश्त परिसर की सुरक्षा को मजबूत बनाती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 44,
+  "category": "Patrolling",
+  "english": "Observe, report, and act responsibly.",
+  "hindi": "निरीक्षण करें, रिपोर्ट करें और जिम्मेदारी से कार्य करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 45,
+  "category": "Patrolling",
+  "english": "Alert patrols reduce security risks.",
+  "hindi": "सतर्क गश्त सुरक्षा जोखिमों को कम करती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 46,
+  "category": "Success",
+  "english": "Success comes through consistency.",
+  "hindi": "सफलता निरंतर प्रयास से मिलती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 47,
+  "category": "Success",
+  "english": "Believe in yourself and keep moving forward.",
+  "hindi": "खुद पर विश्वास रखें और आगे बढ़ते रहें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 48,
+  "category": "Success",
+  "english": "Every challenge is an opportunity to grow.",
+  "hindi": "हर चुनौती आगे बढ़ने का अवसर है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 49,
+  "category": "Success",
+  "english": "Dedication leads to excellence.",
+  "hindi": "समर्पण उत्कृष्टता की ओर ले जाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 50,
+  "category": "Success",
+  "english": "Keep learning, keep improving, keep protecting.",
+  "hindi": "सीखते रहें, बेहतर बनते रहें और सुरक्षा करते रहें।",
+  "author": "Suraksha Guide"
+},
+  
 {
   "id": 51,
   "category": "Security Guard",
