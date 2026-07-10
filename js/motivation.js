@@ -48,8 +48,16 @@ document.addEventListener("DOMContentLoaded", function () {
                     </h4>
 
                     <p class="sg-quote">
-                        "${quote.text}"
-                    </p>
+
+"${quote.english}"
+
+</p>
+
+<p class="sg-quote-hindi">
+
+${quote.hindi}
+
+</p>
 
                     <div class="sg-author">
                         — ${quote.author}
