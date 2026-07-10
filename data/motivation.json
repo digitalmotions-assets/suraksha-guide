@@ -138,5 +138,180 @@
     "english": "Practice fire drills to build confidence.",
     "hindi": "आत्मविश्वास बढ़ाने के लिए नियमित फायर ड्रिल करें।",
     "author": "Suraksha Guide"
-  }
+  },
+{
+  "id": 51,
+  "category": "Security Guard",
+  "english": "A vigilant security guard is the first line of defense.",
+  "hindi": "सतर्क सुरक्षा गार्ड सुरक्षा की पहली रक्षा पंक्ति होता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 52,
+  "category": "Security Guard",
+  "english": "Your alertness protects lives and property.",
+  "hindi": "आपकी सतर्कता लोगों और संपत्ति की रक्षा करती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 53,
+  "category": "Security Guard",
+  "english": "Every shift is an opportunity to serve with pride.",
+  "hindi": "हर ड्यूटी गर्व के साथ सेवा करने का अवसर है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 54,
+  "category": "Security Guard",
+  "english": "Professional guards never ignore small details.",
+  "hindi": "पेशेवर सुरक्षा गार्ड छोटी-छोटी बातों को कभी नजरअंदाज नहीं करते।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 55,
+  "category": "Security Guard",
+  "english": "A calm mind makes better security decisions.",
+  "hindi": "शांत मन बेहतर सुरक्षा निर्णय लेता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 56,
+  "category": "Security Supervisor",
+  "english": "A supervisor succeeds when the entire team succeeds.",
+  "hindi": "सुपरवाइजर की सफलता पूरी टीम की सफलता में होती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 57,
+  "category": "Security Supervisor",
+  "english": "Guide your team with confidence and fairness.",
+  "hindi": "अपनी टीम का नेतृत्व आत्मविश्वास और निष्पक्षता से करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 58,
+  "category": "Security Supervisor",
+  "english": "A good supervisor listens before making decisions.",
+  "hindi": "एक अच्छा सुपरवाइजर निर्णय लेने से पहले सुनता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 59,
+  "category": "Security Supervisor",
+  "english": "Leadership begins with responsibility.",
+  "hindi": "नेतृत्व की शुरुआत जिम्मेदारी से होती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 60,
+  "category": "Security Supervisor",
+  "english": "Strong leadership creates disciplined teams.",
+  "hindi": "मजबूत नेतृत्व अनुशासित टीम बनाता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 61,
+  "category": "Security Officer",
+  "english": "A security officer protects with knowledge and confidence.",
+  "hindi": "सुरक्षा अधिकारी ज्ञान और आत्मविश्वास के साथ सुरक्षा करता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 62,
+  "category": "Security Officer",
+  "english": "Prepared officers respond faster during emergencies.",
+  "hindi": "तैयार अधिकारी आपातकाल में तेज़ी से प्रतिक्रिया देते हैं।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 63,
+  "category": "Security Officer",
+  "english": "Professional decisions build safe workplaces.",
+  "hindi": "पेशेवर निर्णय सुरक्षित कार्यस्थल बनाते हैं।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 64,
+  "category": "Security Officer",
+  "english": "Knowledge is your greatest security tool.",
+  "hindi": "ज्ञान आपका सबसे बड़ा सुरक्षा उपकरण है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 65,
+  "category": "Security Officer",
+  "english": "Every report should be accurate and timely.",
+  "hindi": "हर रिपोर्ट सही और समय पर होनी चाहिए।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 66,
+  "category": "CCTV",
+  "english": "A camera records, but an alert operator prevents incidents.",
+  "hindi": "कैमरा रिकॉर्ड करता है, लेकिन सतर्क ऑपरेटर घटनाओं को रोकता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 67,
+  "category": "CCTV",
+  "english": "Watch every screen with complete attention.",
+  "hindi": "हर स्क्रीन पर पूरी सावधानी से निगरानी रखें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 68,
+  "category": "CCTV",
+  "english": "Observation is more valuable than assumptions.",
+  "hindi": "अनुमान से अधिक मूल्यवान सही निरीक्षण होता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 69,
+  "category": "CCTV",
+  "english": "One missed moment can become a major incident.",
+  "hindi": "एक छूटा हुआ क्षण बड़ी घटना बन सकता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 70,
+  "category": "CCTV",
+  "english": "Stay focused, every camera tells a story.",
+  "hindi": "ध्यान बनाए रखें, हर कैमरा एक कहानी बताता है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 71,
+  "category": "Access Control",
+  "english": "Access control is the key to secure premises.",
+  "hindi": "एक्सेस कंट्रोल सुरक्षित परिसर की कुंजी है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 72,
+  "category": "Access Control",
+  "english": "Verify before allowing entry.",
+  "hindi": "प्रवेश देने से पहले सत्यापन करें।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 73,
+  "category": "Access Control",
+  "english": "Security starts at the gate.",
+  "hindi": "सुरक्षा की शुरुआत मुख्य प्रवेश द्वार से होती है।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 74,
+  "category": "Access Control",
+  "english": "Every visitor must follow the security process.",
+  "hindi": "हर आगंतुक को सुरक्षा प्रक्रिया का पालन करना चाहिए।",
+  "author": "Suraksha Guide"
+},
+{
+  "id": 75,
+  "category": "Access Control",
+  "english": "A secure entry prevents future risks.",
+  "hindi": "सुरक्षित प्रवेश भविष्य के जोखिमों को रोकता है।",
+  "author": "Suraksha Guide"
+}
 ]
