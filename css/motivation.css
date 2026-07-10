@@ -41,7 +41,19 @@ Version : 1.0
     box-shadow:0 15px 40px rgba(0,0,0,.12);
 
 }
+.sg-quote-hindi{
 
+margin-top:12px;
+
+font-size:18px;
+
+font-weight:500;
+
+color:#555;
+
+line-height:1.8;
+
+}
 /* Decorative Background */
 
 .sg-motivation-card::before{
