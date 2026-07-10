@@ -2,15 +2,141 @@
   {
     "id": 1,
     "category": "Professionalism",
-    "english": "A professional security guard earns respect through discipline, integrity, and responsibility.",
-    "hindi": "एक पेशेवर सुरक्षा गार्ड अनुशासन, ईमानदारी और जिम्मेदारी से सम्मान अर्जित करता है।",
+    "english": "Professionalism is the foundation of trust in the security profession.",
+    "hindi": "पेशेवर व्यवहार सुरक्षा क्षेत्र में विश्वास की नींव है।",
     "author": "Suraksha Guide"
   },
   {
     "id": 2,
+    "category": "Professionalism",
+    "english": "A professional security guard protects people with discipline and integrity.",
+    "hindi": "एक पेशेवर सुरक्षा गार्ड अनुशासन और ईमानदारी के साथ लोगों की सुरक्षा करता है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 3,
+    "category": "Professionalism",
+    "english": "Your attitude reflects your professionalism.",
+    "hindi": "आपका व्यवहार ही आपकी पेशेवर पहचान है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 4,
+    "category": "Professionalism",
+    "english": "Every uniform deserves respect when worn with responsibility.",
+    "hindi": "जब वर्दी जिम्मेदारी के साथ पहनी जाती है, तब वह सम्मान की हकदार होती है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 5,
+    "category": "Professionalism",
+    "english": "Professional excellence begins with self-discipline.",
+    "hindi": "पेशेवर उत्कृष्टता आत्म-अनुशासन से शुरू होती है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 6,
     "category": "Leadership",
-    "english": "A true leader inspires confidence before giving instructions.",
-    "hindi": "एक सच्चा नेता निर्देश देने से पहले विश्वास पैदा करता है।",
+    "english": "A leader guides by example, not by authority alone.",
+    "hindi": "एक नेता केवल अधिकार से नहीं, बल्कि अपने उदाहरण से नेतृत्व करता है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 7,
+    "category": "Leadership",
+    "english": "Leadership is earned through actions, not titles.",
+    "hindi": "नेतृत्व पद से नहीं, कर्म से मिलता है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 8,
+    "category": "Leadership",
+    "english": "A great supervisor builds a confident team.",
+    "hindi": "एक श्रेष्ठ सुपरवाइजर आत्मविश्वासी टीम बनाता है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 9,
+    "category": "Leadership",
+    "english": "Strong leaders create stronger security teams.",
+    "hindi": "मजबूत नेता मजबूत सुरक्षा टीम तैयार करते हैं।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 10,
+    "category": "Leadership",
+    "english": "Leadership means taking responsibility before taking credit.",
+    "hindi": "नेतृत्व का अर्थ है श्रेय लेने से पहले जिम्मेदारी लेना।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 11,
+    "category": "Discipline",
+    "english": "Discipline is the strongest weapon of every security professional.",
+    "hindi": "अनुशासन हर सुरक्षा कर्मी का सबसे बड़ा हथियार है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 12,
+    "category": "Discipline",
+    "english": "Discipline today prevents problems tomorrow.",
+    "hindi": "आज का अनुशासन कल की समस्याओं को रोकता है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 13,
+    "category": "Discipline",
+    "english": "A disciplined guard earns lasting respect.",
+    "hindi": "अनुशासित गार्ड हमेशा सम्मान पाता है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 14,
+    "category": "Discipline",
+    "english": "Self-discipline creates professional success.",
+    "hindi": "आत्म-अनुशासन पेशेवर सफलता की कुंजी है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 15,
+    "category": "Discipline",
+    "english": "Discipline turns ordinary people into trusted professionals.",
+    "hindi": "अनुशासन साधारण व्यक्ति को विश्वसनीय पेशेवर बनाता है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 16,
+    "category": "Fire Safety",
+    "english": "Fire safety starts with awareness.",
+    "hindi": "अग्नि सुरक्षा जागरूकता से शुरू होती है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 17,
+    "category": "Fire Safety",
+    "english": "Every second counts during a fire emergency.",
+    "hindi": "आग लगने की स्थिति में हर सेकंड महत्वपूर्ण होता है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 18,
+    "category": "Fire Safety",
+    "english": "Preparedness saves lives during emergencies.",
+    "hindi": "आपातकाल में तैयारी ही जीवन बचाती है।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 19,
+    "category": "Fire Safety",
+    "english": "Know your extinguisher before you need it.",
+    "hindi": "आवश्यकता से पहले अग्निशामक यंत्र को अच्छी तरह जानें।",
+    "author": "Suraksha Guide"
+  },
+  {
+    "id": 20,
+    "category": "Fire Safety",
+    "english": "Practice fire drills to build confidence.",
+    "hindi": "आत्मविश्वास बढ़ाने के लिए नियमित फायर ड्रिल करें।",
     "author": "Suraksha Guide"
   }
 ]
