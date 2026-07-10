@@ -1,0 +1,221 @@
+/*
+==========================================
+Suraksha Guide
+Daily Motivation Widget
+Version : 1.0
+==========================================
+*/
+
+#dailyMotivationWidget{
+    margin:25px 0;
+}
+
+/* Card */
+
+.sg-motivation-card{
+
+    background:#ffffff;
+
+    border:1px solid #e9ecef;
+
+    border-left:5px solid #0A2342;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.08);
+
+    transition:.35s ease;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.sg-motivation-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+}
+
+/* Decorative Background */
+
+.sg-motivation-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-60px;
+
+    right:-60px;
+
+    width:140px;
+
+    height:140px;
+
+    background:rgba(10,35,66,.05);
+
+    border-radius:50%;
+
+}
+
+/* Quote Icon */
+
+.sg-icon{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#0A2342;
+
+    color:#fff;
+
+    font-size:28px;
+
+    margin-bottom:18px;
+
+}
+
+/* Title */
+
+.sg-title{
+
+    font-size:22px;
+
+    font-weight:700;
+
+    color:#0A2342;
+
+    margin-bottom:18px;
+
+}
+
+/* Quote */
+
+.sg-quote{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#495057;
+
+    font-style:italic;
+
+    margin-bottom:22px;
+
+}
+
+/* Author */
+
+.sg-author{
+
+    font-weight:700;
+
+    color:#212529;
+
+    margin-bottom:15px;
+
+}
+
+/* Category */
+
+.sg-category{
+
+    display:inline-block;
+
+    padding:8px 16px;
+
+    border-radius:30px;
+
+    background:#FF6B35;
+
+    color:#fff;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.sg-motivation-card{
+
+padding:22px;
+
+}
+
+.sg-title{
+
+font-size:20px;
+
+}
+
+.sg-quote{
+
+font-size:16px;
+
+line-height:1.7;
+
+}
+
+.sg-icon{
+
+width:52px;
+
+height:52px;
+
+font-size:24px;
+
+}
+
+}
+
+/* Dark Mode Support */
+
+@media (prefers-color-scheme: dark){
+
+.sg-motivation-card{
+
+background:#1f2937;
+
+border-color:#374151;
+
+}
+
+.sg-title{
+
+color:#ffffff;
+
+}
+
+.sg-quote{
+
+color:#d1d5db;
+
+}
+
+.sg-author{
+
+color:#ffffff;
+
+}
+
+}
