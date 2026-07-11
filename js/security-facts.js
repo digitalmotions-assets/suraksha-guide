@@ -119,7 +119,13 @@ const response = await fetch(JSON_URL);
             
             // Show initial fact
             if (this.facts.length > 0) {
-                this.updateUI(0, false); // Initialize without enter animation
+                const dayNumber =
+Math.floor(Date.now()/86400000);
+
+this.currentIndex =
+dayNumber % this.facts.length;
+
+this.updateUI(this.currentIndex,false); // Initialize without enter animation
             }
         } catch (error) {
             console.error('Failed to load facts:', error);
@@ -183,13 +189,25 @@ const response = await fetch(JSON_URL);
     /**
      * Navigation Logic
      */
-    navigate(direction) {
-        const newIndex = this.currentIndex + direction;
-        if (newIndex >= 0 && newIndex < this.facts.length) {
-            this.currentIndex = newIndex;
-            this.updateUI(this.currentIndex);
-        }
-    }
+    navigate(direction){
+
+this.currentIndex+=direction;
+
+if(this.currentIndex<0){
+
+this.currentIndex=this.facts.length-1;
+
+}
+
+if(this.currentIndex>=this.facts.length){
+
+this.currentIndex=0;
+
+}
+
+this.updateUI(this.currentIndex);
+
+}
 
     showRandom() {
         if(this.facts.length <= 1) return;
@@ -247,6 +265,33 @@ const response = await fetch(JSON_URL);
         }, 3000);
     }
 }
+
+
+
+
+
+document.addEventListener("keydown",(e)=>{
+
+if(e.key==="ArrowRight"){
+
+this.navigate(1);
+
+}
+
+if(e.key==="ArrowLeft"){
+
+this.navigate(-1);
+
+}
+
+});
+
+
+
+
+
+
+
 
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
