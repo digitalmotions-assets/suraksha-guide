@@ -87,7 +87,7 @@ class SecurityFactsWidget {
      */
     async fetchFacts() {
         try {
-            const response = await fetch('/security-facts.json'); // Adjust path if needed
+            const response = await fetch("https://digitalmotions-assets.github.io/suraksha-guide/data/security-facts.json"); // Adjust path if needed
             if (!response.ok) throw new Error('Network response was not ok');
             this.facts = await response.json();
             
@@ -185,7 +185,7 @@ class SecurityFactsWidget {
      */
     copyFact() {
         const fact = this.facts[this.currentIndex];
-        const textToCopy = `🛡️ Security Fact:\n${fact.en}\n\n${fact.hi}\n\nVia Suraksha Guide`;
+        const textToCopy = `🛡️ Security Fact:\n${fact.en}\n\n${fact.hindi}\n\nVia Suraksha Guide`;
         
         navigator.clipboard.writeText(textToCopy).then(() => {
             this.showToast("Fact copied to clipboard!");
@@ -200,7 +200,7 @@ class SecurityFactsWidget {
      */
     shareWhatsApp() {
         const fact = this.facts[this.currentIndex];
-        const textToShare = encodeURIComponent(`🛡️ Security Fact:\n${fact.en}\n\n${fact.hi}\n\nRead more at Suraksha Guide`);
+        const textToShare = encodeURIComponent(`🛡️ Security Fact:\n${fact.english}\n\n${fact.hi}\n\nRead more at Suraksha Guide`);
         window.open(`https://api.whatsapp.com/send?text=${textToShare}`, '_blank');
     }
 
