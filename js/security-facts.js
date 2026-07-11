@@ -109,7 +109,10 @@ class SecurityFactsWidget {
     async fetchFacts() {
         try {
             // NOTE: Ensure the path to your JSON file is correct based on your Blogger setup
-            const response = await fetch('/security-facts.json'); 
+            const JSON_URL =
+"https://digitalmotions-assets.github.io/suraksha-guide/data/security-facts.json";
+
+const response = await fetch(JSON_URL); 
             if (!response.ok) throw new Error('Network response was not ok');
             
             this.facts = await response.json();
@@ -136,8 +139,8 @@ class SecurityFactsWidget {
         const applyUpdates = () => {
             // Update Text Content
             this.elCategory.innerHTML = `<i class="bi ${theme.icon}"></i> ${fact.category}`;
-            this.elEn.textContent = fact.en;
-            this.elHi.textContent = fact.hi;
+            this.elEn.textContent = fact.english;
+            this.elHi.textContent = fact.hindi;
             this.elCounter.textContent = `Fact #${index + 1} of ${this.facts.length}`;
 
             // Update Theme Colors & Watermark
