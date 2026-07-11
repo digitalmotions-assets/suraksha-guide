@@ -47,7 +47,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         widget.innerHTML = `
 
-<div class="sg-fact-card">
+<div class="sg-fact-card"
+
+style="--factColor:${fact.color};">
 
 <div class="sg-fact-icon">
 <i class="bi ${fact.icon}"></i>
