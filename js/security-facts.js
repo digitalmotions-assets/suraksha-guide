@@ -82,8 +82,8 @@ class SecurityFactsWidget {
         this.watermark   = document.getElementById('sf-watermark-icon');
         this.contentArea = document.getElementById('fact-content-area');
         this.elCategory  = document.getElementById('fact-category');
-        this.elEn        = document.getElementById('fact-en');
-        this.elHi        = document.getElementById('fact-hi');
+        this.elEn        = document.getElementById('fact-english');
+        this.elHi        = document.getElementById('fact-hindi');
         this.elCounter   = document.getElementById('fact-counter');
         
         this.btnPrev = document.getElementById('sf-btn-prev');
