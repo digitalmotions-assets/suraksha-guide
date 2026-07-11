@@ -443,3 +443,74 @@ https://surakshaguide.blogspot.com`;
         );
 
     }
+    bindKeyboard() {
+
+        document.addEventListener("keydown", (e) => {
+
+            if (this.isAnimating) return;
+
+            switch (e.key) {
+
+                case "ArrowLeft":
+                    this.navigate(-1);
+                    break;
+
+                case "ArrowRight":
+                    this.navigate(1);
+                    break;
+
+                case "r":
+                case "R":
+                    this.showRandom();
+                    break;
+
+                case "c":
+                case "C":
+                    this.copyFact();
+                    break;
+
+            }
+
+        });
+
+    }
+
+    createToast() {
+
+        this.toast = document.createElement("div");
+
+        this.toast.className = "sf-toast";
+
+        document.body.appendChild(this.toast);
+
+    }
+
+    showToast(message) {
+
+        this.toast.innerHTML =
+
+            `<i class="bi bi-check-circle-fill"></i> ${message}`;
+
+        this.toast.classList.add("show");
+
+        clearTimeout(this.toastTimer);
+
+        this.toastTimer = setTimeout(() => {
+
+            this.toast.classList.remove("show");
+
+        }, 2500);
+
+    }
+
+}
+
+/* ==========================================================
+   Initialize Widget
+========================================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    new SecurityFactsWidget();
+
+});
