@@ -6,7 +6,7 @@
     "english": "Most security incidents can be prevented through early observation and timely reporting.",
     "hindi": "अधिकांश सुरक्षा घटनाओं को समय पर निरीक्षण और रिपोर्टिंग द्वारा रोका जा सकता है।",
     "icon": "bi-shield-check",
-    "color": "#dc3545",
+    "color": "#0d6efd",
     "author": "Suraksha Guide"
   },
   {
@@ -36,7 +36,7 @@
     "english": "CCTV records evidence, but alert monitoring helps prevent incidents before they occur.",
     "hindi": "सीसीटीवी साक्ष्य रिकॉर्ड करता है, लेकिन सतर्क निगरानी घटनाओं को होने से पहले रोकने में मदद करती है।",
     "icon": "bi-camera-video",
-    "color": "#dc3545",
+    "color": "#0dcaf0",
     "author": "Suraksha Guide"
   },
   {
@@ -46,7 +46,7 @@
     "english": "The first few minutes of an emergency are the most critical for saving lives.",
     "hindi": "आपातकाल के शुरुआती कुछ मिनट जीवन बचाने के लिए सबसे महत्वपूर्ण होते हैं।",
     "icon": "bi-exclamation-triangle",
-    "color": "#dc3545",
+    "color": "#fd7e14",
     "author": "Suraksha Guide"
   },
   {
@@ -56,7 +56,7 @@
     "english": "Regular patrols significantly reduce security risks and unauthorized activities.",
     "hindi": "नियमित गश्त सुरक्षा जोखिमों और अनधिकृत गतिविधियों को काफी हद तक कम करती है।",
     "icon": "bi-person-walking",
-    "color": "#dc3545",
+    "color": "#20c997",
     "author": "Suraksha Guide"
   },
   {
@@ -66,7 +66,7 @@
     "english": "Following Standard Operating Procedures (SOPs) reduces workplace accidents.",
     "hindi": "मानक संचालन प्रक्रियाओं (SOP) का पालन कार्यस्थल की दुर्घटनाओं को कम करता है।",
     "icon": "bi-building",
-    "color": "#dc3545",
+    "color": "#6c757d",
     "author": "Suraksha Guide"
   },
   {
@@ -76,7 +76,7 @@
     "english": "Proper visitor management improves the overall security of residential communities.",
     "hindi": "उचित आगंतुक प्रबंधन आवासीय सोसायटी की समग्र सुरक्षा को बेहतर बनाता है।",
     "icon": "bi-house-check",
-    "color": "#dc3545",
+    "color": "#0d6efd",
     "author": "Suraksha Guide"
   },
   {
@@ -96,7 +96,7 @@
     "english": "Alertness is the most valuable skill of every security guard.",
     "hindi": "सतर्कता हर सुरक्षा गार्ड का सबसे महत्वपूर्ण गुण है।",
     "icon": "bi-shield-lock",
-    "color": "#dc3545",
+    "color": "#0d6efd",
     "author": "Suraksha Guide"
   }
 ]
