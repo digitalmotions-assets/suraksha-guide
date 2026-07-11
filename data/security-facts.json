@@ -6,6 +6,7 @@
     "english": "Most security incidents can be prevented through early observation and timely reporting.",
     "hindi": "अधिकांश सुरक्षा घटनाओं को समय पर निरीक्षण और रिपोर्टिंग द्वारा रोका जा सकता है।",
     "icon": "bi-shield-check",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   },
   {
@@ -15,6 +16,7 @@
     "english": "A portable fire extinguisher should be inspected at least once every month.",
     "hindi": "पोर्टेबल अग्निशामक यंत्र का कम से कम महीने में एक बार निरीक्षण किया जाना चाहिए।",
     "icon": "bi-fire",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   },
   {
@@ -24,6 +26,7 @@
     "english": "Visitor identity verification is one of the most effective access control measures.",
     "hindi": "आगंतुक की पहचान का सत्यापन एक्सेस कंट्रोल का सबसे प्रभावी उपाय है।",
     "icon": "bi-person-check",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   },
   {
@@ -33,6 +36,7 @@
     "english": "CCTV records evidence, but alert monitoring helps prevent incidents before they occur.",
     "hindi": "सीसीटीवी साक्ष्य रिकॉर्ड करता है, लेकिन सतर्क निगरानी घटनाओं को होने से पहले रोकने में मदद करती है।",
     "icon": "bi-camera-video",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   },
   {
@@ -42,6 +46,7 @@
     "english": "The first few minutes of an emergency are the most critical for saving lives.",
     "hindi": "आपातकाल के शुरुआती कुछ मिनट जीवन बचाने के लिए सबसे महत्वपूर्ण होते हैं।",
     "icon": "bi-exclamation-triangle",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   },
   {
@@ -51,6 +56,7 @@
     "english": "Regular patrols significantly reduce security risks and unauthorized activities.",
     "hindi": "नियमित गश्त सुरक्षा जोखिमों और अनधिकृत गतिविधियों को काफी हद तक कम करती है।",
     "icon": "bi-person-walking",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   },
   {
@@ -60,6 +66,7 @@
     "english": "Following Standard Operating Procedures (SOPs) reduces workplace accidents.",
     "hindi": "मानक संचालन प्रक्रियाओं (SOP) का पालन कार्यस्थल की दुर्घटनाओं को कम करता है।",
     "icon": "bi-building",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   },
   {
@@ -69,6 +76,7 @@
     "english": "Proper visitor management improves the overall security of residential communities.",
     "hindi": "उचित आगंतुक प्रबंधन आवासीय सोसायटी की समग्र सुरक्षा को बेहतर बनाता है।",
     "icon": "bi-house-check",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   },
   {
@@ -78,6 +86,7 @@
     "english": "Professional appearance creates confidence among residents and visitors.",
     "hindi": "पेशेवर व्यक्तित्व निवासियों और आगंतुकों के बीच विश्वास पैदा करता है।",
     "icon": "bi-person-badge",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   },
   {
@@ -87,6 +96,7 @@
     "english": "Alertness is the most valuable skill of every security guard.",
     "hindi": "सतर्कता हर सुरक्षा गार्ड का सबसे महत्वपूर्ण गुण है।",
     "icon": "bi-shield-lock",
+    "color": "#dc3545",
     "author": "Suraksha Guide"
   }
 ]
