@@ -1,8 +1,8 @@
 /**
  * ==========================================================================
- * PREMIUM SECURITY FACTS WIDGET - JavaScript Architecture
+ * PREMIUM SECURITY FACTS WIDGET - Self-Rendering JavaScript Architecture
  * Author: Senior Frontend Engineer
- * Features: Modular, Accessible, Performance-Optimized, No-jQuery
+ * Features: Modular, Accessible, Auto-mounting, No-jQuery
  * ==========================================================================
  */
 
@@ -28,58 +28,79 @@ class SecurityFactsWidget {
 
         // Initialize Application
         this.initDOM();
-        this.fetchFacts();
     }
 
     /**
-     * Cache DOM elements and prepare widget layout
+     * Build the HTML structure dynamically and mount it to the page
      */
     initDOM() {
-        // Main Container setup
-        this.container = document.getElementById('security-fact-widget');
-        if (this.container) {
-            this.container.classList.add('sf-premium-widget');
-            
-            // Inject Watermark Element
-            this.watermark = document.createElement('i');
-            this.watermark.className = 'bi sf-watermark';
-            this.container.appendChild(this.watermark);
+        // Find the user-defined mount point
+        this.container = document.getElementById('securityFactsWidget');
+        
+        if (!this.container) {
+            console.error('Security Facts Widget Error: Mount point <div id="securityFactsWidget"></div> not found.');
+            return;
         }
 
-        // Content Elements
-        this.contentArea = document.getElementById('fact-content-area') || document.querySelector('.fact-body');
+        // Apply core widget class
+        this.container.classList.add('sf-premium-widget');
+
+        // Inject the complete HTML structure
+        this.container.innerHTML = `
+            <i class="bi sf-watermark" id="sf-watermark-icon" aria-hidden="true"></i>
+            
+            <div class="sf-header">
+                <span id="fact-category" class="sf-category-badge"></span>
+                <span id="fact-counter" class="sf-counter"></span>
+            </div>
+            
+            <div id="fact-content-area" class="sf-content-area" aria-live="polite">
+                <p id="fact-en" class="sf-fact-en"></p>
+                <p id="fact-hi" class="sf-fact-hi"></p>
+            </div>
+            
+            <div class="sf-footer">
+                <button id="sf-btn-prev" class="sf-btn" aria-label="Previous Fact">
+                    <i class="bi bi-chevron-left"></i> Previous
+                </button>
+                <button id="sf-btn-random" class="sf-btn" aria-label="Random Fact">
+                    <i class="bi bi-shuffle"></i> Surprise Me
+                </button>
+                <button id="sf-btn-next" class="sf-btn sf-btn-primary" aria-label="Next Fact">
+                    Next <i class="bi bi-chevron-right"></i>
+                </button>
+                <button id="sf-btn-copy" class="sf-btn sf-btn-copy" aria-label="Copy Fact">
+                    <i class="bi bi-clipboard"></i> Copy
+                </button>
+                <button id="sf-btn-whatsapp" class="sf-btn sf-btn-whatsapp" aria-label="Share on WhatsApp">
+                    <i class="bi bi-whatsapp"></i> Share
+                </button>
+            </div>
+        `;
+
+        // Cache newly created DOM elements for performance
+        this.watermark   = document.getElementById('sf-watermark-icon');
+        this.contentArea = document.getElementById('fact-content-area');
         this.elCategory  = document.getElementById('fact-category');
         this.elEn        = document.getElementById('fact-en');
         this.elHi        = document.getElementById('fact-hi');
         this.elCounter   = document.getElementById('fact-counter');
+        
+        this.btnPrev = document.getElementById('sf-btn-prev');
+        this.btnNext = document.getElementById('sf-btn-next');
 
-        // Apply premium classes to elements
-        if(this.contentArea) this.contentArea.classList.add('sf-content-area');
-        if(this.elCategory) this.elCategory.classList.add('sf-category-badge');
-        if(this.elEn) this.elEn.classList.add('sf-fact-en');
-        if(this.elHi) this.elHi.classList.add('sf-fact-hi');
-        if(this.elCounter) this.elCounter.classList.add('sf-counter');
+        // Bind Events
+        this.btnPrev.addEventListener('click', () => this.navigate(-1));
+        this.btnNext.addEventListener('click', () => this.navigate(1));
+        document.getElementById('sf-btn-random').addEventListener('click', () => this.showRandom());
+        document.getElementById('sf-btn-copy').addEventListener('click', () => this.copyFact());
+        document.getElementById('sf-btn-whatsapp').addEventListener('click', () => this.shareWhatsApp());
 
-        // Bind Buttons
-        this.bindButton('btn-prev', () => this.navigate(-1), 'sf-btn', '<i class="bi bi-chevron-left"></i> Previous');
-        this.bindButton('btn-next', () => this.navigate(1), 'sf-btn sf-btn-primary', 'Next <i class="bi bi-chevron-right"></i>');
-        this.bindButton('btn-random', () => this.showRandom(), 'sf-btn', '<i class="bi bi-shuffle"></i> Surprise Me');
-        this.bindButton('btn-copy', () => this.copyFact(), 'sf-btn sf-btn-copy', '<i class="bi bi-clipboard"></i> Copy');
-        this.bindButton('btn-whatsapp', () => this.shareWhatsApp(), 'sf-btn sf-btn-whatsapp', '<i class="bi bi-whatsapp"></i> Share');
-
-        // Create Toast Notification Element
+        // Setup custom Toast Notification Element
         this.createToastElement();
-    }
 
-    bindButton(id, callback, classes, innerHTML) {
-        const btn = document.getElementById(id);
-        if (btn) {
-            btn.className = classes;
-            btn.innerHTML = innerHTML;
-            btn.addEventListener('click', callback);
-            // Accessibility
-            btn.setAttribute('aria-label', btn.innerText.trim());
-        }
+        // Fetch data after DOM is ready
+        this.fetchFacts();
     }
 
     /**
@@ -87,17 +108,19 @@ class SecurityFactsWidget {
      */
     async fetchFacts() {
         try {
-            const response = await fetch("https://digitalmotions-assets.github.io/suraksha-guide/data/security-facts.json"); // Adjust path if needed
+            // NOTE: Ensure the path to your JSON file is correct based on your Blogger setup
+            const response = await fetch('/security-facts.json'); 
             if (!response.ok) throw new Error('Network response was not ok');
+            
             this.facts = await response.json();
             
             // Show initial fact
             if (this.facts.length > 0) {
-                this.updateUI(0, false); // No animation on initial load
+                this.updateUI(0, false); // Initialize without enter animation
             }
         } catch (error) {
-            console.error('Failed to load facts, using fallback data:', error);
-            // Optional: Provide a fallback array here if network fails
+            console.error('Failed to load facts:', error);
+            this.contentArea.innerHTML = `<p class="sf-fact-en text-danger">Failed to load facts. Please try again later.</p>`;
         }
     }
 
@@ -112,34 +135,30 @@ class SecurityFactsWidget {
 
         const applyUpdates = () => {
             // Update Text Content
-            if (this.elCategory) this.elCategory.innerHTML = `<i class="bi ${theme.icon}"></i> ${fact.category}`;
-            if (this.elEn) this.elEn.textContent = fact.en;
-            if (this.elHi) this.elHi.textContent = fact.hi;
-            if (this.elCounter) this.elCounter.textContent = `Fact #${index + 1} of ${this.facts.length}`;
+            this.elCategory.innerHTML = `<i class="bi ${theme.icon}"></i> ${fact.category}`;
+            this.elEn.textContent = fact.en;
+            this.elHi.textContent = fact.hi;
+            this.elCounter.textContent = `Fact #${index + 1} of ${this.facts.length}`;
 
             // Update Theme Colors & Watermark
-            if (this.container) {
-                this.container.style.setProperty('--sf-accent', theme.color);
-                
-                // Convert Hex to RGBA for background
-                const hex = theme.color.replace('#', '');
-                const r = parseInt(hex.substring(0, 2), 16);
-                const g = parseInt(hex.substring(2, 4), 16);
-                const b = parseInt(hex.substring(4, 6), 16);
-                this.container.style.setProperty('--sf-accent-bg', `rgba(${r}, ${g}, ${b}, 0.1)`);
-                
-                // Update Watermark Icon
-                this.watermark.className = `bi ${theme.icon} sf-watermark`;
-            }
+            this.container.style.setProperty('--sf-accent', theme.color);
+            
+            // Convert Hex to RGBA for background
+            const hex = theme.color.replace('#', '');
+            const r = parseInt(hex.substring(0, 2), 16);
+            const g = parseInt(hex.substring(2, 4), 16);
+            const b = parseInt(hex.substring(4, 6), 16);
+            this.container.style.setProperty('--sf-accent-bg', `rgba(${r}, ${g}, ${b}, 0.1)`);
+            
+            // Update Watermark Icon
+            this.watermark.className = `bi ${theme.icon} sf-watermark`;
 
-            // Update Button States
-            const btnPrev = document.getElementById('btn-prev');
-            const btnNext = document.getElementById('btn-next');
-            if(btnPrev) btnPrev.disabled = (index === 0);
-            if(btnNext) btnNext.disabled = (index === this.facts.length - 1);
+            // Update Button Disabled States
+            this.btnPrev.disabled = (index === 0);
+            this.btnNext.disabled = (index === this.facts.length - 1);
         };
 
-        if (animate && this.contentArea) {
+        if (animate) {
             this.isAnimating = true;
             this.contentArea.classList.remove('sf-anim-enter');
             this.contentArea.classList.add('sf-anim-exit');
@@ -185,7 +204,7 @@ class SecurityFactsWidget {
      */
     copyFact() {
         const fact = this.facts[this.currentIndex];
-        const textToCopy = `🛡️ Security Fact:\n${fact.en}\n\n${fact.hindi}\n\nVia Suraksha Guide`;
+        const textToCopy = `🛡️ Security Fact:\n${fact.en}\n\n${fact.hi}\n\nVia Suraksha Guide`;
         
         navigator.clipboard.writeText(textToCopy).then(() => {
             this.showToast("Fact copied to clipboard!");
@@ -200,12 +219,12 @@ class SecurityFactsWidget {
      */
     shareWhatsApp() {
         const fact = this.facts[this.currentIndex];
-        const textToShare = encodeURIComponent(`🛡️ Security Fact:\n${fact.english}\n\n${fact.hi}\n\nRead more at Suraksha Guide`);
+        const textToShare = encodeURIComponent(`🛡️ Security Fact:\n${fact.en}\n\n${fact.hi}\n\nRead more at Suraksha Guide`);
         window.open(`https://api.whatsapp.com/send?text=${textToShare}`, '_blank');
     }
 
     /**
-     * Custom DOM Toast implementation (No external frameworks needed)
+     * Custom DOM Toast implementation
      */
     createToastElement() {
         this.toastEl = document.createElement('div');
