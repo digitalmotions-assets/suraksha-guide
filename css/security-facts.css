@@ -33,19 +33,31 @@ transition:.35s;
 }
 .sg-fact-card::before{
 
-    content:"";
+content:"";
 
-    position:absolute;
+position:absolute;
 
-    inset:0;
+top:0;
 
-    background:url("https://digitalmotions-assets.github.io/suraksha-guide/images/security-bg.webp") center center no-repeat;
+right:0;
 
-    background-size:cover;
+bottom:0;
 
-    opacity:.05;
+left:0;
 
-    z-index:0;
+background:
+
+url("https://digitalmotions-assets.github.io/suraksha-guide/images/security-pattern.png")
+
+center center;
+
+background-size:cover;
+
+opacity:.05;
+
+pointer-events:none;
+
+}
 
 }
 .sg-fact-card>*{
