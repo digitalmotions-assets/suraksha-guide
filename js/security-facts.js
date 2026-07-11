@@ -55,8 +55,8 @@ class SecurityFactsWidget {
             </div>
             
             <div id="fact-content-area" class="sf-content-area" aria-live="polite">
-                <p id="fact-en" class="sf-fact-en"></p>
-                <p id="fact-hi" class="sf-fact-hi"></p>
+                <p id="fact-english" class="sf-fact-en"></p>
+                <p id="fact-hindi" class="sf-fact-hi"></p>
             </div>
             
             <div class="sf-footer">
