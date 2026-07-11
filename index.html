@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
@@ -8,35 +7,63 @@
 
 <title>Suraksha Guide Assets</title>
 
-<meta name="description" content="Official static assets repository for Suraksha Guide.">
+<meta name="description" content="Official Assets Repository of Suraksha Guide">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-<link rel="stylesheet" href="https://digitalmotions-assets.github.io/suraksha-guide/css/motivation.css">
+<link rel="stylesheet" href="css/motivation.css">
+<link rel="stylesheet" href="css/security-facts.css">
 
 <style>
 
 body{
-    background:#f8f9fa;
-    font-family:Arial,sans-serif;
+    background:#eef3f8;
 }
 
 .hero{
-    padding:70px 20px;
+
+    background:
+    linear-gradient(rgba(10,35,66,.75),rgba(10,35,66,.75)),
+    url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80");
+
+    background-size:cover;
+    background-position:center;
+
+    color:#fff;
+
+    padding:90px 20px;
+
 }
 
-.card-demo{
-    max-width:850px;
-    margin:auto;
+.section-title{
+
+    font-weight:700;
+
+    color:#0A2342;
+
+}
+
+.demo-card{
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
 }
 
 .footer{
-    margin-top:60px;
-    padding:30px;
-    text-align:center;
-    color:#6c757d;
-    font-size:14px;
+
+    background:#0A2342;
+
+    color:#fff;
+
+    padding:25px;
+
+    margin-top:70px;
+
 }
 
 </style>
@@ -45,35 +72,43 @@ body{
 
 <body>
 
-<div class="container hero text-center">
+<section class="hero text-center">
 
-<i class="bi bi-shield-check display-1 text-primary"></i>
+<div class="container">
 
-<h1 class="fw-bold mt-3">
+<i class="bi bi-shield-check display-1"></i>
+
+<h1 class="display-4 fw-bold mt-3">
+
 Suraksha Guide Assets
+
 </h1>
 
-<p class="lead text-secondary">
+<p class="lead">
 
-Official Static Assets Repository for the Suraksha Guide Platform.
+Official Static Assets Repository for Blogger Widgets
 
 </p>
 
 <div class="mt-4">
 
-<a href="https://surakshaguide.blogspot.com/" class="btn btn-primary btn-lg me-2" target="_blank">
+<a class="btn btn-warning btn-lg me-2"
+href="https://surakshaguide.blogspot.com/"
+target="_blank">
 
 <i class="bi bi-globe"></i>
 
-Visit Suraksha Guide
+Visit Website
 
 </a>
 
-<a href="https://github.com/digitalmotions-assets/suraksha-guide" class="btn btn-outline-dark btn-lg" target="_blank">
+<a class="btn btn-outline-light btn-lg"
+href="https://github.com/digitalmotions-assets/suraksha-guide"
+target="_blank">
 
 <i class="bi bi-github"></i>
 
-GitHub Repository
+GitHub
 
 </a>
 
@@ -81,23 +116,21 @@ GitHub Repository
 
 </div>
 
-<div class="container">
+</section>
 
-<div class="card shadow-sm border-0 card-demo">
+<div class="container py-5">
 
-<div class="card-header bg-primary text-white">
+<div class="row g-4">
 
-<h3 class="mb-0">
+<div class="col-lg-6">
 
-<i class="bi bi-stars"></i>
+<div class="demo-card p-4 h-100">
 
-Security Daily Motivation Demo
+<h3 class="section-title">
+
+💬 Daily Motivation
 
 </h3>
-
-</div>
-
-<div class="card-body">
 
 <div id="dailyMotivationWidget"></div>
 
@@ -105,108 +138,96 @@ Security Daily Motivation Demo
 
 </div>
 
+<div class="col-lg-6">
+
+<div class="demo-card p-4 h-100">
+
+<h3 class="section-title">
+
+🛡️ Security Facts
+
+</h3>
+
+<div id="securityFactsWidget"></div>
+
 </div>
 
-<div class="container mt-5">
+</div>
 
-<div class="row g-4 text-center">
+</div>
+
+</div>
+
+<div class="container pb-5">
+
+<h2 class="section-title text-center mb-4">
+
+Available Components
+
+</h2>
+
+<div class="row g-3">
 
 <div class="col-md-3">
-
-<div class="card h-100">
-
+<div class="card h-100 text-center">
 <div class="card-body">
-
-<i class="bi bi-filetype-json display-5 text-primary"></i>
-
-<h5 class="mt-3">
-
-JSON Data
-
-</h5>
-
+<i class="bi bi-filetype-js display-5 text-primary"></i>
+<h5 class="mt-3">JavaScript</h5>
 </div>
-
 </div>
-
-</div>
-
-<div class="col-md-3">
-
-<div class="card h-100">
-
-<div class="card-body">
-
-<i class="bi bi-filetype-js display-5 text-warning"></i>
-
-<h5 class="mt-3">
-
-JavaScript
-
-</h5>
-
-</div>
-
-</div>
-
 </div>
 
 <div class="col-md-3">
-
-<div class="card h-100">
-
+<div class="card h-100 text-center">
 <div class="card-body">
-
 <i class="bi bi-filetype-css display-5 text-info"></i>
-
-<h5 class="mt-3">
-
-CSS
-
-</h5>
-
+<h5 class="mt-3">CSS</h5>
 </div>
-
 </div>
-
 </div>
 
 <div class="col-md-3">
-
-<div class="card h-100">
-
+<div class="card h-100 text-center">
 <div class="card-body">
+<i class="bi bi-filetype-json display-5 text-success"></i>
+<h5 class="mt-3">JSON Data</h5>
+</div>
+</div>
+</div>
 
+<div class="col-md-3">
+<div class="card h-100 text-center">
+<div class="card-body">
 <i class="bi bi-bootstrap display-5 text-purple"></i>
-
-<h5 class="mt-3">
-
-Bootstrap Widgets
-
-</h5>
-
+<h5 class="mt-3">Bootstrap Widgets</h5>
+</div>
+</div>
 </div>
 
 </div>
 
 </div>
 
-</div>
+<footer class="footer text-center">
 
-</div>
+<h5>Suraksha Guide Assets</h5>
 
-<div class="footer">
+<p class="mb-0">
 
-© 2026 Suraksha Guide Assets
+Reusable Blogger Widgets • JSON APIs • CSS • JavaScript
 
-<br>
+</p>
 
-Powered by GitHub Pages
+<small>
 
-</div>
+© 2026 Suraksha Guide
 
-<script src="https://digitalmotions-assets.github.io/suraksha-guide/js/motivation.js"></script>
+</small>
+
+</footer>
+
+<script src="js/motivation.js"></script>
+<script src="js/security-facts.js"></script>
 
 </body>
-
 </html>
