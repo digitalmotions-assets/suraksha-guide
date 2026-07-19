@@ -13,11 +13,11 @@
 
 const SG_CONFIG = {
 
-    json: 'https://raw.githubusercontent.com/digitalmotions-assets/suraksha-guide/main/gallery/gallery.json',
+    json: "https://digitalmotions-assets.github.io/suraksha-guide/gallery/gallery.json",
+
+    imagePath: "https://digitalmotions-assets.github.io/suraksha-guide/gallery/images/",
 
     perPage: 20,
-
-    imagePath: 'https://raw.githubusercontent.com/digitalmotions-assets/suraksha-guide/main/gallery/images/',
 
     animation: 300
 
