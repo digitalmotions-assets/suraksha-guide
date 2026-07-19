@@ -573,7 +573,7 @@ function openModal(index){
 
     if(!item || !modal) return;
 
-    modalImage.src = item.image || item.thumb;
+    modalImage.src = SG_CONFIG.imagePath + (item.image || item.thumb);
 
     modalImage.alt = item.title;
 
