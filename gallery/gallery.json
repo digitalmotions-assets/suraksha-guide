@@ -3,8 +3,10 @@
     "id": 1,
     "title": "Fire Extinguisher Types Chart",
     "category": "Fire Safety",
-    "thumb": "images/fire-extinguisher-types.webp",
-    "image": "images/fire-extinguisher-types.webp",
+    {
+  "thumb":"https://digitalmotions-assets.github.io/suraksha-guide/gallery/images/fire-extinguisher-types.webp",
+  "image":"https://digitalmotions-assets.github.io/suraksha-guide/gallery/images/fire-extinguisher-types.webp"
+}
     "description": "Learn the different types of fire extinguishers and their correct uses.",
     "article": "https://surakshaguide.blogspot.com/p/fire-extinguisher-types.html",
     "views": 1250,
