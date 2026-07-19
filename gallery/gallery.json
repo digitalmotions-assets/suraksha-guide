@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Fire Extinguisher Types Chart",
+    "category": "Fire Safety",
+    "thumb": "images/fire-extinguisher-types.webp",
+    "image": "images/fire-extinguisher-types.webp",
+    "description": "Learn the different types of fire extinguishers and their correct uses.",
+    "article": "https://surakshaguide.blogspot.com/p/fire-extinguisher-types.html",
+    "views": 1250,
+    "featured": true,
+    "tags": ["Fire", "ABC", "CO2", "Safety"]
+  },
+  {
+    "id": 2,
+    "title": "PASS Fire Extinguisher Method",
+    "category": "Fire Safety",
+    "thumb": "images/pass-method.webp",
+    "image": "images/pass-method.webp",
+    "description": "Step-by-step PASS method for operating a fire extinguisher safely.",
+    "article": "https://surakshaguide.blogspot.com/p/pass-method.html",
+    "views": 980,
+    "featured": false,
+    "tags": ["PASS", "Fire", "Training"]
+  },
+  {
+    "id": 3,
+    "title": "Security Guard Uniform Guide",
+    "category": "Security",
+    "thumb": "images/security-uniform.webp",
+    "image": "images/security-uniform.webp",
+    "description": "Standard security guard uniform and grooming guidelines.",
+    "article": "https://surakshaguide.blogspot.com/p/security-uniform.html",
+    "views": 720,
+    "featured": false,
+    "tags": ["Uniform", "Security", "Dress Code"]
+  },
+  {
+    "id": 4,
+    "title": "CCTV Camera Types",
+    "category": "CCTV",
+    "thumb": "images/cctv-types.webp",
+    "image": "images/cctv-types.webp",
+    "description": "Different CCTV camera types and their applications.",
+    "article": "https://surakshaguide.blogspot.com/p/cctv-camera-types.html",
+    "views": 1560,
+    "featured": true,
+    "tags": ["CCTV", "Dome", "Bullet", "IP Camera"]
+  },
+  {
+    "id": 5,
+    "title": "PPE Safety Equipment",
+    "category": "PPE",
+    "thumb": "images/ppe-equipment.webp",
+    "image": "images/ppe-equipment.webp",
+    "description": "Essential Personal Protective Equipment used in workplaces.",
+    "article": "https://surakshaguide.blogspot.com/p/ppe.html",
+    "views": 830,
+    "featured": false,
+    "tags": ["Helmet", "Shoes", "Gloves", "PPE"]
+  },
+  {
+    "id": 6,
+    "title": "First Aid Kit Contents",
+    "category": "First Aid",
+    "thumb": "images/first-aid-kit.webp",
+    "image": "images/first-aid-kit.webp",
+    "description": "Basic first aid kit items every workplace should have.",
+    "article": "https://surakshaguide.blogspot.com/p/first-aid-kit.html",
+    "views": 670,
+    "featured": false,
+    "tags": ["First Aid", "Medical", "Emergency"]
+  },
+  {
+    "id": 7,
+    "title": "Emergency Exit Signs",
+    "category": "Emergency",
+    "thumb": "images/emergency-exit.webp",
+    "image": "images/emergency-exit.webp",
+    "description": "Understand emergency exit sign colors and symbols.",
+    "article": "https://surakshaguide.blogspot.com/p/emergency-exit-signs.html",
+    "views": 540,
+    "featured": false,
+    "tags": ["Emergency", "Exit", "Evacuation"]
+  },
+  {
+    "id": 8,
+    "title": "Visitor Management Process",
+    "category": "Access Control",
+    "thumb": "images/visitor-management.webp",
+    "image": "images/visitor-management.webp",
+    "description": "Visitor entry process for offices and residential societies.",
+    "article": "https://surakshaguide.blogspot.com/p/visitor-management.html",
+    "views": 610,
+    "featured": false,
+    "tags": ["Visitor", "Entry", "Security"]
+  }
+]
