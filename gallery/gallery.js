@@ -165,8 +165,9 @@ function createCard(item,index){
 
 <img
 loading="lazy"
-src="${item.thumb}"
+src="${SG_CONFIG.imagePath}${item.thumb}"
 alt="${item.title}"
+onerror="this.src='https://via.placeholder.com/400x300?text=Image+Not+Found'"
 >
 
 <div class="sg-overlay">
